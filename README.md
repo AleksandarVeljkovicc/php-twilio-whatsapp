@@ -44,7 +44,7 @@ If you are using the Twilio Sandbox, the recipient number must be verified in yo
 
 To verify a number, follow Twilio’s Sandbox instructions (send the join code from Twilio via WhatsApp).
 
-The TWILIO_WHATSAPP_NUMBER in .env should remain as the sandbox number: whatsapp:+14155238886 for testing.
+The TWILIO_WHATSAPP_NUMBER in .env should remain as the sandbox number: whatsapp:+1234567890 (This is an example number, use a number that you verified) for testing.
 
 - Press Send. if everything is correct, you will receive:
 
