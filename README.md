@@ -32,28 +32,22 @@ Value: Bearer YOUR_API_KEY
 - In the Body tab, select raw and JSON, then add:
 
 {
-
   "phone": "+381641234567",
-  
   "message": "Hello from Twilio WhatsApp API!"
-  
 }
 
 **IMPORTANT:**
 
-*The phone number must be in E.164 format (+<country_code><number>), e.g., +381641234567.
-*If you are using the Twilio Sandbox, the recipient number must be verified in your Twilio Sandbox.
-*To verify a number, follow Twilio’s Sandbox instructions (send the join code from Twilio via WhatsApp).
-*The TWILIO_WHATSAPP_NUMBER in .env should remain as the sandbox number: whatsapp:+1234567890 (This is an example number, use a number that you verified) for testing.
+The phone number must be in E.164 format (+<country_code><number>), e.g., +381641234567.
+If you are using the Twilio Sandbox, the recipient number must be verified in your Twilio Sandbox.
+To verify a number, follow Twilio’s Sandbox instructions (send the join code from Twilio via WhatsApp).
+The TWILIO_WHATSAPP_NUMBER in .env should remain as the sandbox number: whatsapp:+1234567890 (This is an example number, use a number that you verified) for testing.
 
 - Press Send. if everything is correct, you will receive:
 
 {
-
-"status":
-
-"Message sent"
-
+  "status":
+  "Message sent"
 }
 
 If you get {"error":"Unauthorized"}, check that your Authorization header matches API_KEY.
