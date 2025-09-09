@@ -53,5 +53,4 @@ The TWILIO_WHATSAPP_NUMBER in .env should remain as the sandbox number: whatsapp
 If you get {"error":"Unauthorized"}, check that your Authorization header matches API_KEY.
 If you get {"error":"Internal error"}, verify your Twilio SID, token, sandbox number, and that the recipient number is verified.
 
-
-
+![photo_2025-07-21_15-58-58](https://github.com/user-attachments/assets/00995ab7-9303-4858-94f5-f4375f691a35)
